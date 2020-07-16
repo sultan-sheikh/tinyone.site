@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'PT Sans', sans-serif; }
+
+/*variable*/
+/*header section start*/
+#header-section {
+  background: #fcdb00;
+  padding-bottom: 100px; }
+  #header-section .navbar {
+    padding: 50px 0 !important; }
+    #header-section .navbar .navbar-brand img {
+      height: 43px; }
+    #header-section .navbar ul li a {
+      color: #010101;
+      font-weight: 600;
+      font-size: 26px;
+      padding: 0 30px; }
+  #header-section .banner-content .banner-info h2 {
+    color: #010101;
+    font-size: 32px;
+    font-weight: 700; }
+  #header-section .banner-content .banner-info h4 {
+    color: #010101;
+    color: #010101;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0; }
+  #header-section .banner-content .banner-info p {
+    color: #010101;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px; }
+  #header-section .banner-content .banner-info ul li {
+    padding-right: 40px; }
+  #header-section ol li {
+    width: 15px;
+    height: 15px;
+    border: 0;
+    border-radius: 30px !important; }
+  #header-section .banner-img img {
+    display: block;
+    margin: auto; }
+  #header-section .carousel-indicators {
+    bottom: -100px; }
+
+/*header section end*/
+/*tinyone features start*/
+.feature-section {
+  background: #FFFFFF;
+  padding: 100px 0; }
+  .feature-section h2 {
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center; }
+  .feature-section h3 {
+    color: black;
+    font-weight: 600;
+    font-size: 24px; }
+  .feature-section .singlep {
+    color: #989898;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 120px;
+    padding-bottom: 30px; }
+  .feature-section img {
+    max-width: 150%; }
+  .feature-section p {
+    color: #777777;
+    font-size: 16px; }
+
+/*tinyone features end*/
+/*form-section start*/
+.form-section {
+  background: #010101;
+  text-align: center;
+  padding: 50px 0; }
+  .form-section h2 {
+    color: #fcdb00;
+    font-size: 30px;
+    font-weight: 600; }
+  .form-section p {
+    color: gray;
+    font-size: 18px;
+    padding: 10px 120px; }
+  .form-section input {
+    padding: 25px 20px;
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px; }
+  .form-section a {
+    font-size: 20px;
+    display: block;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase; }
+
+/*form-section end*/
+/*media css start*/
+/*lg device*/
+/*medium device*/
+@media (max-width: 991px) {
+  .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+    justify-content: center; }
+
+  #header-section .navbar ul li a {
+    font-size: 22px; }
+
+  #header-section .banner-img img {
+    display: block;
+    margin: auto;
+    width: 80%; } }
+/*small divice*/
+@media (max-width: 767px) {
+  #header-section .banner-content .banner-info h2 {
+    color: #010101;
+    font-size: 22px;
+    font-weight: 700; }
+
+  #header-section .banner-content .banner-info h4 {
+    color: #010101;
+    color: #010101;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0; }
+
+  #header-section .banner-content .banner-info p {
+    color: #010101;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 40px; }
+
+  #header-section .navbar ul li a {
+    font-size: 16px; }
+
+  .banner-info ul li a img {
+    max-width: 28px; }
+
+  #header-section .carousel-indicators {
+    bottom: -60px; }
+
+  .feature-section img {
+    margin-bottom: 10px; }
+
+  .form-section a {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase; } }
+/*xtrasmall device*/
+@media (max-width: 575px) {
+  #header-section .banner-img img {
+    width: 60%;
+    margin-top: 20px; }
+
+  #header-section .navbar {
+    padding: 50px 0 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+
+  .banner-info {
+    text-align: center; }
+
+  .navbar-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px; }
+
+  .nav {
+    justify-content: center; }
+
+  .feature-section .col-sm-6 {
+    text-align: center; }
+
+  .feature-section .singlep {
+    color: #989898;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    padding: 0; }
+
+  .form-section p {
+    color: gray;
+    font-size: 15px;
+    padding: 0; } }
+/*media css end*/
+
+/*# sourceMappingURL=style.css.map */
